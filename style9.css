@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #1f2d5c;
+  color: white;
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  background: #1c2752;
+  padding: 15px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  margin-left: 25px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+  border-bottom: 2px solid #4da3ff;
+  padding-bottom: 3px;
+}
+
+.contribute {
+  background: #2ecc71;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #253b7d, #1f2d5c);
+}
+
+.hero h1 {
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.release {
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.release span {
+  margin: 0 10px;
+}
+
+.buttons {
+  margin-bottom: 40px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px 15px;
+  padding: 14px 40px;
+  background: #3578e5;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #4da3ff;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sub-description {
+  font-size: 18px;
+  opacity: 0.9;
+}
